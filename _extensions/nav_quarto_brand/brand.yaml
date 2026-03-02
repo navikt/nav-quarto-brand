@@ -1,5 +1,17 @@
 logo:
-  medium: NAV_logo_digital_White.svg
+  images:
+    white:
+      path: NAV_logo_digital_White.svg
+      alt: "Nav logo i hvit versjon"
+    red:
+      path: NAV_logo_digital_Red.svg
+      alt: "Nav logo i rød versjon"
+    gray_900:
+      path: NAV_logo_digital_Gray900.svg
+      alt: "Nav logo i grå versjon"
+  small: white
+  medium: white
+  large: white
 
 meta:
   name:
