@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    # Tillat at man manuelt starter jobber på Github
+env:
+  FORCE_COLOR: "1"
+permissions:
+  contents: read
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+          - uses: actions/checkout@v6
+          - name: Install uv
+            uses: astral-sh/setup-uv@v7
+          - name: Set up Python
+            uses: actions/setup-python@v6
+            with:
+              python-version-file: ".python-version"
+          - name: Run linting
+            uses: j178/prek-action@v1
