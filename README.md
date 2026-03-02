@@ -25,9 +25,12 @@ endre `logo.medium` til å referere til
 
 ## Eksempel
 
-Dette prosjektet inneholder et minimalt eksempel: [`example.qmd]`(example.qmd)
+Dette prosjektet inneholder et minimalt eksempel: [`example.qmd`](example.qmd)
 som sammen med [`_quarto.yaml`](_quarto.yaml) bygger en nettside med fargepalett
 og logo.
+
+> [!TIP]
+> Bruk `just preview` i roten av prosjektet for å se eksempelet.
 
 ---
 
