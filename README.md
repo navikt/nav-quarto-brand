@@ -21,7 +21,9 @@ jobber i.
 Avhengig av typen dokument/output du jobber med i Quarto kan det være mer
 naturlig å bruke en rød Nav-logo. Vi har lagt ved en rød logo og man kan dermed
 endre `logo.medium` til å referere til
-[`NAV_logo_digital_red.svg`](_extensions/nav_quarto_brand/NAV_logo_digital_Red.svg).
+[`NAV_logo_digital_red.svg`](_extensions/nav_quarto_brand/NAV_logo_digital_Red.svg)
+ved å bytte ut `logo.medium = white` med `logo.medium = red` i
+`_extensions/navikt/nav_quarto_brand/brand.yaml`.
 
 ## Eksempel
 
@@ -31,6 +33,22 @@ og logo.
 
 > [!TIP]
 > Bruk `just preview` i roten av prosjektet for å se eksempelet.
+
+### Presentasjon
+
+Vi har lagt ved et eksempel på presentasjon i
+[`presentation.qmd`](presentation.qmd), denne kan bygges med:
+
+```bash
+uv run quarto preview presentation.qmd
+```
+
+I selve presentasjonen kan man bytte `brand-mode` mellom `light` og `dark` for å
+se presentasjonen i lys- eller mørkmodus.
+
+> [!NOTE]
+> Logo vises ikke i lysmodus fordi standard logo er hvit. Bytt `logo.small` til
+> `red` som beskrevet over for å få rød Nav-logo.
 
 ---
 
