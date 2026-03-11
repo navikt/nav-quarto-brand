@@ -32,6 +32,10 @@ typography:
       source: google
       weight: [400, 800]
       style: normal
+  headings:
+    color:
+      light: "#002942"
+      dark: "#b4ccdc"
   monospace-block:
     background-color:
       light: neutral-200

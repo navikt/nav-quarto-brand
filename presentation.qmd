@@ -1,0 +1,23 @@
+---
+title: "Nav brand presentasjon"
+author: "Jørgen Nordmoen"
+format:
+    revealjs:
+        brand-mode: light
+---
+
+## Første side
+
+- Noen kulepunkter
+- Neste punkt
+
+. . .
+
+### Test underoverskrift
+
+Vi kan også ha tekst her!
+
+## Siste side
+
+- La oss avslutte
+- Takk for meg!
