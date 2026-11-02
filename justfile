@@ -17,7 +17,10 @@ lint:
 preview:
     uv run quarto preview
 
-# Oppdater Python og pre-commit avhengigheter
+# Oppdater Python
 update:
     uv lock --upgrade
+
+# Oppdaterer pre-commit avhengigheter
+update-precommit:
     uv run prek auto-update
